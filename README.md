@@ -1,18 +1,22 @@
-# cra-template-typescript
+# cra-template-mobx-state-tree-typescript
 
-This is the official TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
+This is the MobX-state-tree TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
 
-To use this template, add `--template typescript` when creating a new app.
+To use this template, add `--template mobx-state-tree-typescript` when creating a new app.
 
 For example:
 
 ```sh
-npx create-react-app my-app --template typescript
+npx create-react-app my-mobx-app --template mobx-state-tree-typescript
 
 # or
 
-yarn create react-app my-app --template typescript
+yarn create react-app my-mobx-app --template mobx-state-tree-typescript
 ```
+
+## The resulting app
+
+![Resulting app](img/result.png)
 
 For more information, please refer to:
 
