@@ -4,6 +4,10 @@ import { NumbersStoreContext, NumbersType } from ".";
 
 export const useNumbersStore = (): NumbersType => {
   const store = useContext(NumbersStoreContext);
-
-  return store!;
+  if (!store) {
+    throw new Error(
+      "The NumbersStoreContext is not provided using the <NumbersStoreProvider />."
+    );
+  }
+  return store;
 };
