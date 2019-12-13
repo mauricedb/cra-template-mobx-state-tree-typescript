@@ -1,7 +1,6 @@
-import React, { createContext, useState } from "react";
-import { NumbersType, NumbersStore } from "./NumbersStore";
-
-export const NumbersStoreContext = createContext<NumbersType | null>(null);
+import React, { useState } from "react";
+import { NumbersStore } from "./NumbersStore";
+import { NumbersStoreContext } from "./NumbersStoreContext";
 
 export const NumbersStoreProvider: React.FunctionComponent = ({ children }) => {
   const [numbersStore] = useState(() => NumbersStore.create());
