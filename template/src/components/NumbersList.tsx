@@ -1,7 +1,7 @@
 import React from "react";
 import { observer } from "mobx-react-lite";
 
-import { useNumbersStore } from "../models";
+import { useNumbersStore } from "../hooks";
 
 const NumbersList: React.FunctionComponent = () => {
   const numbersStore = useNumbersStore();

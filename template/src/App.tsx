@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import logo from "./logo.svg";
-import { NumbersStoreProvider } from "./models";
+import { NumbersStoreProvider } from "./contexts";
 
 import AddNumber from "./components/AddNumber";
 import NumbersInfo from "./components/NumbersInfo";

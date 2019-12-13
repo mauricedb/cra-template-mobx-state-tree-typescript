@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useNumbersStore } from "../models";
+import { useNumbersStore } from "../hooks";
 
 const AddNumber: React.FunctionComponent = () => {
   const numbersStore = useNumbersStore();

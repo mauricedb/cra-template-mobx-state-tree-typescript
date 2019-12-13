@@ -1,6 +1,7 @@
 import { useContext } from "react";
 
-import { NumbersStoreContext, NumbersType } from ".";
+import { NumbersStoreContext } from "../contexts";
+import { NumbersType } from "../models";
 
 export const useNumbersStore = (): NumbersType => {
   const store = useContext(NumbersStoreContext);

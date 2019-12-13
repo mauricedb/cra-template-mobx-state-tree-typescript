@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NumbersStore } from "./NumbersStore";
+import { NumbersStore } from "../models/NumbersStore";
 import { NumbersStoreContext } from "./NumbersStoreContext";
 
 export const NumbersStoreProvider: React.FunctionComponent = ({ children }) => {
