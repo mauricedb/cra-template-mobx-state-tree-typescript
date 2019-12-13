@@ -8,8 +8,8 @@ const NumbersList: React.FunctionComponent = () => {
 
   return (
     <ul className="Numbers-list">
-      {numbersStore.numbers.map((value, index) => (
-        <li key={index}>{value}</li>
+      {numbersStore.numbers.map(item => (
+        <li key={item.key}>{item.value}</li>
       ))}
     </ul>
   );
