@@ -1,11 +1,11 @@
-import React from "react";
-import "./App.css";
-import logo from "./logo.svg";
-import { NumbersStoreProvider } from "./contexts";
+import React from 'react';
+import './App.css';
+import logo from './logo.svg';
+import { NumbersStoreProvider } from './contexts';
 
-import AddNumber from "./components/AddNumber";
-import NumbersInfo from "./components/NumbersInfo";
-import NumbersList from "./components/NumbersList";
+import AddNumber from './components/AddNumber';
+import NumbersInfo from './components/NumbersInfo';
+import NumbersList from './components/NumbersList';
 
 const App: React.FC = () => {
   return (
