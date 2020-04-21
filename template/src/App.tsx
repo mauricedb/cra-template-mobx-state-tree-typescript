@@ -18,6 +18,15 @@ const App: React.FC = () => {
         <AddNumber />
         <NumbersInfo />
         <NumbersList />
+        <p>
+          <a
+            href="https://mobx-state-tree.js.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn MobX-state-tree
+          </a>
+        </p>
       </div>
     </NumbersStoreProvider>
   );
